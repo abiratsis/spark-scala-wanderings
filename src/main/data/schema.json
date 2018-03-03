@@ -1,0 +1,42 @@
+[
+  {
+    "trim": true,
+    "name": "id",
+    "nullable": true,
+    "id": null,
+    "position": 0,
+    "table": "employee",
+    "_type": "integer",
+    "primaryKey": true
+  },
+  {
+    "trim": true,
+    "name": "salary",
+    "nullable": true,
+    "id": null,
+    "position": 1,
+    "table": "employee",
+    "_type": "double",
+    "primaryKey": false
+  },
+  {
+    "trim": true,
+    "name": "dob",
+    "nullable": true,
+    "id": null,
+    "position": 2,
+    "table": "employee",
+    "_type": "date",
+    "primaryKey": false
+  },
+  {
+    "trim": true,
+    "name": "department",
+    "nullable": true,
+    "id": null,
+    "position": 3,
+    "table": "employee",
+    "_type": "string",
+    "primaryKey": false
+  }
+]
