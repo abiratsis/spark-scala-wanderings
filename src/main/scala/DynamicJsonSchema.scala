@@ -14,7 +14,7 @@ object DynamicJsonSchema extends App {
 
   case class JColumn(trim: Boolean, name: String, nullable: Boolean, id: Option[String], position: BigInt, table: String, _type: String, primaryKey: Boolean)
 
-  val path = """C:\Users\abiratsis.OLBICO\Desktop\schema.json"""
+  val path = """C:\Users\abiratsis.OLBICO\Desktop\spark-scala-wanderings\src\main\data\schema.json"""
   val input = scala.io.Source.fromFile(path)
   val json = JsonMethods.parse(input.reader())
 
@@ -44,11 +44,9 @@ object DynamicJsonSchema extends App {
     .option("delimiter", ",")
     .option("nullValue", "null")
     .option("treatEmptyValuesAsNulls", "true")
-    .csv("""C:\Users\abiratsis.OLBICO\Desktop\employee.csv""")
+    .csv("""C:\Users\abiratsis.OLBICO\Desktop\spark-scala-wanderings\src\main\data\employee.csv""")
 
   in_emp.printSchema()
   in_emp.collect()
   in_emp.show()
-
 }
-

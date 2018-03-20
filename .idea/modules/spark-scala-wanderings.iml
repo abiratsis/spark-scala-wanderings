@@ -23,6 +23,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.11:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-compiler:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.propensive:rapture-json-jackson_2.11:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.propensive:rapture-json_2.11:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.propensive:rapture-data_2.11:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.propensive:rapture-core_2.11:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.11:3.5.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-jackson_2.11:3.5.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.11:3.5.3:jar" level="project" />

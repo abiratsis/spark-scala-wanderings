@@ -10,6 +10,10 @@ libraryDependencies ++= {
     "org.apache.spark" %% "spark-core" % sparkVer,
     "org.apache.spark" %% "spark-sql" % sparkVer,
     "org.json4s" %% "json4s-jackson" % "3.5.3",
-    "org.json4s" %% "json4s-native" % "3.5.3"
+    "org.json4s" %% "json4s-native" % "3.5.3",
+    "com.propensive" %% "rapture-json-jackson" % "1.0.6",
+
+    "org.scala-lang" % "scala-reflect" % "2.11.8",
+    "org.scala-lang" % "scala-compiler" % "2.11.8"
   )
 }
